@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".CustomerHomeActivity">
+
+    <Button
+        android:id="@+id/profileButton"
+        android:layout_width="240dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="profile" />
+
+    <Button
+        android:id="@+id/bookButton"
+        android:layout_width="240dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:text="Hire Service" />
+
+
+
+    <Button
+        android:id="@+id/statusButton"
+        android:layout_width="240dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:text="Service Status" />
+
+    <Button
+        android:id="@+id/reviewButton"
+        android:layout_width="240dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:text="Review" />
+
+
+</LinearLayout>

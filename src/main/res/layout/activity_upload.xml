@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".UploadActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPLOAD FILE"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/uploadicon"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CERTIFICATE"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="25dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/file1Button"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/grey"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:text="Choose File"/>
+
+        <TextView
+            android:id="@+id/file1TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID PROOF"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="25dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/file2Button"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/grey"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:text="Choose File"/>
+
+        <TextView
+            android:id="@+id/file2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="210dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Submit"/>
+
+
+
+</LinearLayout>

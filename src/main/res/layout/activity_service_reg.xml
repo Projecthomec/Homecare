@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceRegActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Service Provider"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/snameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect_grey"
+                android:padding="15dp"
+                android:layout_marginTop="20dp"
+                android:hint="Name" />
+
+            <EditText
+                android:id="@+id/snumberEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect_grey"
+                android:padding="15dp"
+                android:layout_marginTop="20dp"
+                android:hint="Mobile Number" />
+
+            <EditText
+                android:id="@+id/saddressEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect_grey"
+                android:padding="15dp"
+                android:layout_marginTop="20dp"
+                android:hint="Address" />
+
+            <EditText
+                android:id="@+id/scityEdiText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect_grey"
+                android:padding="15dp"
+                android:layout_marginTop="20dp"
+                android:hint="City" />
+
+            <EditText
+                android:id="@+id/sstateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect_grey"
+                android:padding="15dp"
+                android:layout_marginTop="20dp"
+                android:hint="State" />
+
+            <EditText
+                android:id="@+id/semailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect_grey"
+                android:padding="15dp"
+                android:layout_marginTop="20dp"
+                android:hint="Email" />
+
+            <EditText
+                android:id="@+id/spasswordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect_grey"
+                android:padding="15dp"
+                android:layout_marginTop="20dp"
+                android:hint="Password" />
+
+            <EditText
+                android:id="@+id/sserviceEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect_grey"
+                android:padding="15dp"
+                android:layout_marginTop="20dp"
+                android:hint="Service Type" />
+
+            <EditText
+                android:id="@+id/sexperienceEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect_grey"
+                android:padding="15dp"
+                android:layout_marginTop="20dp"
+                android:hint="Experience" />
+
+
+
+            <Button
+                android:id="@+id/sregisterButton"
+                android:layout_width="170dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Register" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
